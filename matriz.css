@@ -1,0 +1,35 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    background-color: #EEE470;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #4F4A07;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+}
+
+.filas{
+    background-color: #58F058;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #095609;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.columnas{
+    background-color: #58F058;
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #095609;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+}

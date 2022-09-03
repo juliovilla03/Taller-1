@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matriz de filas y columnas</title>
+    <link rel="stylesheet" href="css/matriz.css">
+    <script src="js/matriz.js"></script>
+  </head>
+  <body>
+    <h1>Matriz de de columnas y filas</h1>
+
+    <div class="filas">
+        <h2>Ingrese la cantidad de filas:</h2>
+        <input type="number" id="filas" />
+    </div>
+    <br><br>
+
+    <div class="columnas">
+    <h2>Ingrese la cantidad de columnas:</h2>
+    <input type="number" id="columnas" />
+    </div>
+    <br><br>
+
+    <input type="button" value="Crear" onclick="crear()" />
+    <input type="button" value="Reiniciar" onclick="reiniciar()" />
+    <div id="matriz"></div>
+  </body>
+</html>

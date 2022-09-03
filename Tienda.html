@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de libros</title>
+    <link rel="stylesheet" href="css/tienda.css">
+    
+</head>
+<body>
+    <div class="fondo">
+    <h1>Tienda de libros y materiales</h1>
+    <img src="img/libros.jpg" alt="imagen de un libro">
+    <br><br>
+    <h2>Acontinuacion se le solicita al usuario que loco la cantidad correcta de productos ingresados en el dia:</h2>
+    <br><br>
+    <div class="precios">
+        <h3>Productos disponibles con sus respectivos precios</h3>
+        <p>Libros----------$100</p>
+        <p>Cuadernos-------$15.50</p>
+        <p>Plumas----------$2.75</p>
+    </div>
+    <br><br><br>
+    <script src="js/tiendas.js"></script>
+    <div id="formulario">
+        <div class="respuesta">
+            <p>Cuantos fueron los libros vendidos:</p>
+            <input type="text" name="libro" id="libros" value="">
+        </div>
+        <br><br>
+        <div class="respuesta">
+            <p>Cuales fueron los cuadernos vendidos:</p>
+            <input type="text" name="cuaderno" id="cuadernos" value="">
+        </div>
+        <br><br>
+        <div class="respuesta">
+            <p>Cuales fueron plumas vendidas:</p>
+            <input type="text" name="pluma" id="plumas" value="">
+        </div>
+        <br><br><br><br>
+        <div class="boton">
+            <button id="guardar" onclick="guardar();">Aceptar</button>
+            <button id="reiniciar" onclick="reiniciar();">Borrar</button>
+        </div>
+        <div id="respuesta">
+        </div>
+        <br><br><br>
+    </div>
+    </div>
+</body>
+</html>
